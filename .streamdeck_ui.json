@@ -342,72 +342,86 @@
                     "0": {
                         "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous",
                         "text": "Previous",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/gtk-go-back-ltr.svg"
                     },
                     "1": {
                         "text": "Play/Pause",
                         "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/Spotify.svg"
                     },
                     "2": {
                         "text": "Next",
-                        "text_vertical_align": "middle",
-                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+                        "text_vertical_align": "middle-bottom",
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/gtk-go-forward-ltr.svg"
                     },
                     "3": {
                         "command": "spt playback --like --device minibee",
                         "text": "Like",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/kdenlive-track-has-effect.svg"
                     },
                     "4": {
                         "text": "Repeat",
-                        "text_vertical_align": "middle",
-                        "command": "spt playback --device minibee --repeat"
+                        "text_vertical_align": "middle-bottom",
+                        "command": "spt playback --device minibee --repeat",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/gtk-refresh.svg"
                     },
                     "5": {
                         "command": "spt play --name \"Discover Weekly\" --playlist --random",
                         "text": "Weekly",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "6": {
                         "command": "spt play --name \"Daily Drive\" --playlist --random",
                         "text": "Daily Drive",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "7": {
                         "command": "spt play --name \"Release Radar\" --playlist --random",
                         "text": "Release",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "8": {
                         "command": "spt play --name \"Daily Mix 1\" --playlist --random",
                         "text": "Daily 1",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "9": {
                         "command": "spt play --name \"Daily Mix 2\" --playlist --random",
                         "text": "Daily 2",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "10": {
                         "command": "spt play --name \"Daily Mix 3\" --playlist --random",
                         "text": "Daily 3",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "11": {
                         "command": "spt play --name \"Daily Mix 4\" --playlist --random",
                         "text": "Daily 4",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "12": {
                         "command": "spt play --name \"Daily Mix 5\" --playlist --random",
                         "text": "Daily 5",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "13": {
                         "command": "spt play --name \"Daily Mix 6\" --playlist --random",
                         "text": "Daily 6",
-                        "text_vertical_align": "middle"
+                        "text_vertical_align": "",
+                        "icon": "/usr/share/icons/BeautyLine/actions/scalable/amarok_playlist.svg"
                     },
                     "14": {
                         "switch_page": 1,
