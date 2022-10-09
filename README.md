@@ -2,7 +2,9 @@
 
 This repository contains some script and configuration I developed to set my Elgato Stream Deck for a development use (expecially with Laravel) but also for Spotify management and possibly something else in the future. The scripts and configurations works with [streamdeck-ui](https://timothycrosley.github.io/streamdeck-ui/) from Timothy Crosley. Consider them more as an inspiration for what you could do to set your streamdeck to your needs than as standalone plugins.
 
-![home](images/home.png)
+<p align="center">
+  <img width="460" height="300" src="images/home.png">
+</p>
 
 ## Installation
 
@@ -55,7 +57,9 @@ This is a little screen I wrote because, on a button to launch an application, y
 
 ## snippet.sh
 
-![work](images/work.png)
+<p align="center">
+  <img width="460" height="300" src="images/work.png">
+</p>
 
 This script accepts one argument: the name of the file inside `~/streamdeck/snippets` that you want to use as snippet. Basically it takes the content of the file and will paste it. The snippets you will find by default are the ones for:
 
@@ -105,7 +109,9 @@ Similar to the above, but it switch to a different KDE activity and it just laun
 
 ## Spotify Management
 
-![spotify](images/spotify.png)
+<p align="center">
+  <img width="460" height="300" src="images/spotify.png">
+</p>
 
 For the Spotify management I used, as said before, [spotify-tui](https://github.com/Rigellute/spotify-tui). If you take the .streamdeck_ui.json file last page (that I set to open when launching spotify), you'll find the commands I used.
 
