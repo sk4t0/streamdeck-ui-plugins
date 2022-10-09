@@ -1,0 +1,367 @@
+{
+    "streamdeck_ui_version": 1,
+    "state": {
+        "AL08L2C52364": {
+            "buttons": {
+                "0": {
+                    "0": {
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/config-users.svg",
+                        "switch_page": 2,
+                        "text": "WORK",
+                        "text_vertical_align": ""
+                    },
+                    "1": {
+                        "text": "RELAX",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/eradio.svg",
+                        "switch_page": 3
+                    },
+                    "2": {
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/applications-development.svg",
+                        "command": "",
+                        "text": "DEV",
+                        "switch_page": 4
+                    },
+                    "3": {
+                        "switch_page": 5,
+                        "text": "GAMES",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/applications-games.svg"
+                    },
+                    "4": {
+                        "switch_page": 6,
+                        "text": "MEDIA",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/applications-multimedia.svg"
+                    },
+                    "5": {
+                        "switch_page": 7,
+                        "text": "OFFICE",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/applications-office.svg"
+                    },
+                    "6": {
+                        "switch_page": 8,
+                        "text": "WEB",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/applications-internet.svg"
+                    },
+                    "7": {
+                        "switch_page": 9,
+                        "text": "SYSTEM",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/preferences-system-performance.svg"
+                    },
+                    "8": {
+                        "switch_page": 9,
+                        "text": "",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/onlyoffice.svg",
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh onlyoffice-desktopeditors"
+                    },
+                    "9": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh spotify",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/spotify.svg",
+                        "switch_page": 10
+                    },
+                    "10": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh google-chrome-stable",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/google-chrome.svg"
+                    },
+                    "11": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh todoist",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/todoist.svg"
+                    },
+                    "12": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh whatsapp-for-linux",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/whatsapp.svg"
+                    },
+                    "13": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh deja-dup",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/deja-dup.svg"
+                    },
+                    "14": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh konsole",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/konsole.svg"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/gitahead.svg",
+                        "command": "/bin/bash /home/skato/streamdeck/startwork.sh",
+                        "write": ""
+                    },
+                    "1": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh google-chrome-stable",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/chrome-ighkikkfkalojiibipjigpccggljgdff-Default.svg"
+                    },
+                    "2": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh github-desktop",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/github-desktop.svg"
+                    },
+                    "3": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh kate",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/kate.svg"
+                    },
+                    "4": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh stacer",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/stacer.svg"
+                    },
+                    "5": {
+                        "write": "",
+                        "text": "Action",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/code-insiders.svg",
+                        "text_vertical_align": "middle-bottom",
+                        "command": "/bin/bash /home/skato/streamdeck/snippet.sh action"
+                    },
+                    "6": {
+                        "text": "Observer",
+                        "write": "\n",
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/code-insiders.svg",
+                        "command": "/bin/bash /home/skato/streamdeck/snippet.sh observer"
+                    },
+                    "7": {
+                        "command": "/bin/bash /home/skato/streamdeck/snippet.sh model",
+                        "text": "Model",
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/code-insiders.svg"
+                    },
+                    "8": {
+                        "command": "/bin/bash /home/skato/streamdeck/snippet.sh controller",
+                        "text": "Controller",
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/code-insiders.svg"
+                    },
+                    "9": {
+                        "command": "/bin/bash /home/skato/streamdeck/snippet.sh command",
+                        "text": "Command",
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/code-insiders.svg"
+                    },
+                    "10": {
+                        "command": "/bin/bash /home/skato/streamdeck/snippet.sh resource",
+                        "text": "Resource",
+                        "text_vertical_align": "middle-bottom",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/code-insiders.svg"
+                    },
+                    "11": {
+                        "write": "",
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh konsole",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/konsole.svg"
+                    },
+                    "12": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh bitwarden-desktop",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/bitwarden.svg"
+                    },
+                    "13": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh postman",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/postman.svg"
+                    },
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "command": "/bin/bash /home/skato/streamdeck/startrelax.sh",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/gitahead.svg"
+                    },
+                    "1": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh spotify",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/spotify.svg"
+                    },
+                    "2": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh discord",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/discord.svg"
+                    },
+                    "3": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh telegram-desktop",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/telegram-desktop.svg"
+                    },
+                    "4": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh whatsapp-for-linux",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/whatsapp-for-linux.svg"
+                    },
+                    "5": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh vlc",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/vlc.svg"
+                    },
+                    "6": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh /opt/google/earth/pro/google-earth-pro",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/google-earth.svg"
+                    },
+                    "7": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh gimp",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/gimp.svg"
+                    },
+                    "8": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh kmahjongg",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/kmahjongg.svg"
+                    },
+                    "9": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh virtualbox",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/virtualbox.svg"
+                    },
+                    "10": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh firefox-developer-edition",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/firefox-developer-edition.svg"
+                    },
+                    "11": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh google-chrome-stable",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/chrome-ighkikkfkalojiibipjigpccggljgdff-Default.svg"
+                    },
+                    "12": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh kmines",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/kmines.svg"
+                    },
+                    "13": {
+                        "command": "/bin/bash /home/skato/streamdeck/launcher.sh ksudoku",
+                        "icon": "/usr/share/icons/BeautyLine/apps/scalable/ksudoku.svg"
+                    },
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                },
+                "3": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                },
+                "4": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                },
+                "5": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                },
+                "6": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg",
+                        "switch_page": 1
+                    }
+                },
+                "7": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                },
+                "8": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                },
+                "9": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {
+                        "switch_page": 1,
+                        "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
+                    }
+                }
+            },
+            "page": 2,
+            "brightness": 99,
+            "brightness_dimmed": 0
+        }
+    }
+}
