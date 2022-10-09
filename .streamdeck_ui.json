@@ -339,27 +339,83 @@
                     }
                 },
                 "9": {
-                    "0": {},
-                    "1": {},
-                    "2": {},
-                    "3": {},
-                    "4": {},
-                    "5": {},
-                    "6": {},
-                    "7": {},
-                    "8": {},
-                    "9": {},
-                    "10": {},
-                    "11": {},
-                    "12": {},
-                    "13": {},
+                    "0": {
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous",
+                        "text": "Previous",
+                        "text_vertical_align": "middle"
+                    },
+                    "1": {
+                        "text": "Play/Pause",
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause",
+                        "text_vertical_align": "middle"
+                    },
+                    "2": {
+                        "text": "Next",
+                        "text_vertical_align": "middle",
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+                    },
+                    "3": {
+                        "command": "spt playback --like --device minibee",
+                        "text": "Like",
+                        "text_vertical_align": "middle"
+                    },
+                    "4": {
+                        "text": "Repeat",
+                        "text_vertical_align": "middle",
+                        "command": "spt playback --device minibee --repeat"
+                    },
+                    "5": {
+                        "command": "spt play --name \"Discover Weekly\" --playlist --random",
+                        "text": "Weekly",
+                        "text_vertical_align": "middle"
+                    },
+                    "6": {
+                        "command": "spt play --name \"Daily Drive\" --playlist --random",
+                        "text": "Daily Drive",
+                        "text_vertical_align": "middle"
+                    },
+                    "7": {
+                        "command": "spt play --name \"Release Radar\" --playlist --random",
+                        "text": "Release",
+                        "text_vertical_align": "middle"
+                    },
+                    "8": {
+                        "command": "spt play --name \"Daily Mix 1\" --playlist --random",
+                        "text": "Daily 1",
+                        "text_vertical_align": "middle"
+                    },
+                    "9": {
+                        "command": "spt play --name \"Daily Mix 2\" --playlist --random",
+                        "text": "Daily 2",
+                        "text_vertical_align": "middle"
+                    },
+                    "10": {
+                        "command": "spt play --name \"Daily Mix 3\" --playlist --random",
+                        "text": "Daily 3",
+                        "text_vertical_align": "middle"
+                    },
+                    "11": {
+                        "command": "spt play --name \"Daily Mix 4\" --playlist --random",
+                        "text": "Daily 4",
+                        "text_vertical_align": "middle"
+                    },
+                    "12": {
+                        "command": "spt play --name \"Daily Mix 5\" --playlist --random",
+                        "text": "Daily 5",
+                        "text_vertical_align": "middle"
+                    },
+                    "13": {
+                        "command": "spt play --name \"Daily Mix 6\" --playlist --random",
+                        "text": "Daily 6",
+                        "text_vertical_align": "middle"
+                    },
                     "14": {
                         "switch_page": 1,
                         "icon": "/usr/share/icons/BeautyLine/places/48/user-home-symbolic.svg"
                     }
                 }
             },
-            "page": 2,
+            "page": 0,
             "brightness": 99,
             "brightness_dimmed": 0
         }
